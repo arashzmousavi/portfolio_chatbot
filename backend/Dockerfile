@@ -15,5 +15,5 @@ pip install -i https://mirror-pypi.runflare.com/simple -r requirements.txt
 # RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-ENV PYTHONPATH=/app
-EXPOSE 8000
+#ENV PYTHONPATH=/app
+#EXPOSE 8000
